@@ -1,0 +1,2 @@
+ALTER TABLE `users`
+	ADD COLUMN `target_type` TINYINT UNSIGNED NOT NULL AFTER `updated_at`;
